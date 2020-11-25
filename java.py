@@ -10,7 +10,7 @@ app.config.from_object(config)
 # 需要用到SQLAlchemy工具   把app当做参数穿进去
 db = SQLAlchemy(app)
 
-
+# 更新
 @app.route("/")
 def index():
     return render_template("gg.html")
