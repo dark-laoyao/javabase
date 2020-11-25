@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>这是第一个js代码</p>
+    <p id="demo"></p>
+    <p id="intro">hello word!</p>
+    <script>
+<!--        var c = 1.1;-->
+<!--        var a = 10;-->
+<!--        document.write(a, "<br>");-->
+<!--        document.write(c, "<br>");-->
+<!--        document.write(typeof(c),"<br><br><br>");-->
+
+<!--        var kk = "hello"-->
+<!--        document.write(kk, "<br>");-->
+<!--        document.write(typeof(kk),"<br><br><br>");-->
+
+<!--        var result = true-->
+<!--        document.write(result, "<br>");-->
+<!--        document.write(typeof(result),"<br><br><br>");-->
+
+<!--        var salery;-->
+<!--        salery = 2000;-->
+<!--        var name = "布什";-->
+<!--        var price = 2.5;-->
+<!--        var isFemle = true;-->
+<!--        var obi = null;-->
+<!--        document.write("你的薪水是："+salery+"元！salery的类型是："+typeof(salery)+"</br>");-->
+<!--        document.write("我的名字是："+name+"元！name的类型是："+typeof(name)+"</br>");-->
+<!--        document.write("苹果价格是："+price+"元！price的类型是："+typeof(price)+"</br>");-->
+<!--        document.write("isFemle的类型是："+typeof(isFemle)+"</br>");-->
+<!--        document.write("obi的类型是："+typeof(obi)+"</br>");-->
+
+        var x=y=z=10;
+        var m = 5;
+        var y = x + y + m;
+<!--        document.write(x, "<br>",y, "<br>",z, "<br>")-->
+        document.write(y,"<br><br><br>")
+
+<!--        var x = 10;-->
+<!--        var y = 5-->
+<!--        if(x != 10)-->
+<!--        {-->
+<!--            document.write("**********")-->
+<!--        }-->
+<!--        else-->
+<!--        {-->
+<!--            document.write("&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;")-->
+<!--        }-->
+
+<!--        var x = 10;-->
+<!--        var y = 5-->
+<!--        if(x != 10 && y != 4)-->
+<!--        {-->
+<!--            document.write("**********")-->
+<!--        }-->
+<!--        else-->
+<!--        {-->
+<!--            document.write("&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;")-->
+<!--        }-->
+
+<!--        var x = 10;-->
+<!--        var y = 5-->
+<!--        if(x != 10 || y != 4)-->
+<!--        {-->
+<!--            document.write("**********")-->
+<!--        }-->
+<!--        else-->
+<!--        {-->
+<!--            document.write("&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;")-->
+<!--        }-->
+
+
+<!--        var cars = ["宝马","奔驰","特斯拉"];-->
+<!--        document.write(cars)-->
+
+<!--        var cars = ["宝马","奔驰","特斯拉"]-->
+<!--        for(var i = 0; i < cars.length; i ++){-->
+<!--            document.write(cars[i], "<br>")-->
+<!--            document.write(cars[i])-->
+<!--            if(cars[i] == "奔驰")-->
+<!--            {-->
+<!--                break;-->
+<!--            }-->
+<!--            document.write(cars[i])-->
+<!--        }-->
+
+
+<!--        var cars = ["宝马","奔驰","特斯拉"]-->
+<!--        while(i < cars.length)-->
+<!--        {-->
+<!--            i += 2-->
+<!--            document.write(cars[i])-->
+<!--            i += 1-->
+<!--        }-->
+
+
+<!--        function myFunction(p1, p2) {-->
+<!--            return p1 * p2-->
+<!--        }-->
+<!--        document.write(myFunction(10, 20))-->
+
+
+<!--        var apple;-->
+<!--        var hh = {firstname:"哇卡卡卡",lastname:"弟弟", age:"18", eyecolour:"pink"}-->
+<!--        document.write(hh.firstname)-->
+
+
+<!--        var person = new Object()-->
+<!--        person.firstname = "瓦嗷嗷";-->
+<!--        person.lastname = "瓦嗷";-->
+<!--        person.age = "55";-->
+<!--        person.eyecolor = "黑色";-->
+<!--        document.write(person.eyecolor)-->
+
+
+
+<!--        var person = {firstname:"哇卡卡卡",lastname:"弟弟", age:"18", eyecolour:"pink"}-->
+
+<!--        var x = person;-->
+<!--        x.age = 10;-->
+
+<!--        document.getElementById("demo").innerHTML = person.firstname + " is " + x.age + " years old. ";-->
+
+
+<!--        var txt = "";-->
+<!--        var person = {fname:"Bill", lname:"Gates", age:62};-->
+<!--        var x;-->
+<!--        for (x in person) {-->
+<!--            txt += person[x] + "  ";-->
+<!--        }-->
+<!--        document.getElementById("demo").innerHTML = txt;-->
+
+
+<!--        var person = {-->
+<!--            firstname:"仗义",-->
+<!--            lastername:"dd",-->
+<!--            age:62,-->
+<!--            eyecolor:"blue"-->
+<!--        };-->
+
+<!--        delete person.age;-->
+<!--        document.getElementById("demo").innerHTML =-->
+<!--        person.firstname + " is " + person.age + " years old. ";-->
+
+
+<!--        var person = {-->
+<!--            firstname: "BILL",-->
+<!--            lastname : "Gates",-->
+<!--            id       : 62,-->
+<!--            xx : function() {-->
+<!--                return this.firstname + " " + this.lastname;-->
+<!--            }-->
+<!--        };-->
+<!--        document.getElementById("demo").innerHTML = person.xx();-->
+<!--        document.write(person.xx())-->
+
+
+
+
+<!--        function myFunction(a, b) {-->
+<!--          return a * b;-->
+<!--        }-->
+<!--        var x = myFunction(4, 3);-->
+<!--        document.write(x)-->
+<!--        document.getElementById("demo").innerHTML = x;-->
+
+
+
+<!--        var x = Sum(4, 3);-->
+<!--        document.getElementById("demo").innerHTML = x;-->
+<!--        function Sum(a, b) {-->
+<!--          return a + b;-->
+<!--        }-->
+<!--        -->
+
+
+<!--        function Ss(a, b){-->
+<!--            if (b === undefined) {-->
+<!--                b = 0;-->
+<!--            }-->
+<!--            return a * b;-->
+<!--        }-->
+<!--        document.getElementById("demo").innerHTML = Ss(4);-->
+
+
+<!--        var myObject = {-->
+<!--            firstName:"Bill是",-->
+<!--            lastName: "Gates的二壁",-->
+<!--            ss: function() {-->
+<!--            return this.firstName + " " + this.lastName;-->
+<!--            }-->
+<!--        }-->
+<!--        document.getElementById("demo").innerHTML = myObject.ss();-->
+
+
+<!--        var myElement = document.getElementById("intro");-->
+<!--        document.getElementById("demo").innerHTML =-->
+<!--        "来自 intro 段落的文本是：" + myElement.innerHTML;-->
+
+
+<!--        var x = document.getElementsByTagName("p");-->
+<!--        document.getElementById("demo").innerHTML =-->
+<!--        '第一段中的文本 (index 0) 是：' + x[2].innerHTML;-->
+
+<!--        document.getElementById("demo").innerHTML =-->
+<!--        '第一段中的文本 (index 0) 是：' + x[1].innerHTML;-->
+<!--        document.getElementById("demo").innerHTML =-->
+<!--        '第一段中的文本 (index 0) 是：' + x[0].innerHTML;-->
+
+
+    </script>
+</body>
+</html>
